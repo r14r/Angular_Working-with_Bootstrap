@@ -1,0 +1,11 @@
+<div class="wrapper">
+    <nav id="sidebar">
+        <div class="sidebar-header"><h3>Components</h3></div>
+
+        <ul class="list-unstyled components">
+            <li *ngFor="let page of pages" (click)="onClick(page)">
+                <a routerLink="{{page.link}}"> {{page.name}}</a>
+            </li>
+        </ul>
+    </nav>
+</div>

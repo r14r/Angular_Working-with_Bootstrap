@@ -1,0 +1,29 @@
+{
+  "editor.formatOnSave": true,
+  "files.exclude": {
+    "package-lock.json": true,
+    "Dockerfile": true,
+    "karma.conf.js": true,
+    "browserslist": true,
+    "tsconfig.spec.json": true,
+    "e2e": true,
+    "**/*.spec.ts": true,
+    "**/node_modules": true,
+    "App/karma.conf.js": true,
+    "App/package-lock.json": true,
+    "App/yarn.lock": true,
+    "App/src/favicon.ico": true,
+    "App/browserslist": true,
+    "App/tsconfig.spec.json": true,
+    "App/src/environments": true,
+    "App/src/test.ts": true,
+    ".env": true,
+    "App/e2e": true,
+    "src/test.ts": true,
+    "src/styles.scss": true,
+    "src/polyfills.ts": true,
+    "src/main.ts": true,
+    "yarn.lock": true,
+    ".envrc": true
+  }
+}

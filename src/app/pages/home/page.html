@@ -1,0 +1,70 @@
+<main>
+	<div class="container">
+		<div
+			class="jumbotron"
+			style="background-color: #fff; height: calc(95vh);"
+		>
+			<h1>Angular Bootstrap Components</h1>
+			<p class="lead">
+				This demo shows how to integrate Bootstrap 4 with Angular 9
+			</p>
+
+			<h3>Button</h3>
+			<a class="btn btn-lg btn-primary" href="" role="button">
+				View tutorial
+			</a>
+		</div>
+
+		<div class="row row-offcanvas row-offcanvas-right">
+			<div class="col-xs-12 col-sm-9">
+				<ol class="breadcrumb">
+					<li class="breadcrumb-item">
+						<a routerLink="/home">Home</a>
+					</li>
+					<li class="breadcrumb-item active">Courses</li>
+				</ol>
+
+				<div class="jumbotron">
+					<h1>Course Categories!</h1>
+					<p>
+						This is a list of course categories, click on each to
+						see a list of courses for a given category.
+					</p>
+				</div>
+				<router-outlet></router-outlet>
+			</div>
+			<router-outlet name="sidemenu"></router-outlet>
+		</div>
+
+		<bs-jumbotron>Jumbotron</bs-jumbotron>
+	</div>
+</main>
+
+<!--
+
+<bs-jumbotron>Jumbotron</bs-jumbotron>
+<bs-alert></bs-alert>
+<bs-badge></bs-badge>
+<bs-breadcrumb></bs-breadcrumb>
+<bs-button></bs-button>
+<bs-buttongroup></bs-buttongroup>
+<bs-card></bs-card>
+<bs-carousel></bs-carousel>
+<bs-collapse></bs-collapse>
+<bs-dropdown></bs-dropdown>
+<bs-forms></bs-forms>
+<bs-input-group></bs-input-group>
+<bs-jumbotron></bs-jumbotron>
+<bs-list-group></bs-list-group>
+<bs-media></bs-media>
+<bs-modal></bs-modal>
+<bs-nav></bs-nav>
+<bs-navbar></bs-navbar>
+<bs-pagination></bs-pagination>
+<bs-popover></bs-popover>
+<bs-progress></bs-progress>
+<bs-scrollspy></bs-scrollspy>
+<bs-spinner></bs-spinner>
+<bs-toast></bs-toast>
+<bs-tooltip></bs-tooltip>p
+-->
